@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "redhat.vscode-yaml",
+    "DavidAnson.vscode-markdownlint",
+    "mechatroner.rainbow-csv",
+    "shopify.ruby-lsp"
+  ]
+}

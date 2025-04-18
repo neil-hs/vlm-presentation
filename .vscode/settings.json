@@ -1,0 +1,64 @@
+{
+  "files.associations": {
+    "*.html": "liquid-html",
+    "*.md": "jekyll",
+    "*.scss": "scss",
+    "Gemfile": "ruby",
+    "Rakefile": "ruby",
+    "*.rake": "ruby"
+  },
+  "[liquid-html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "sissel.shopify-liquid"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "ruby.useBundler": true,
+  "ruby.useLanguageServer": true,
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "search.exclude": {
+    "_site/**": true,
+    ".sass-cache/**": true,
+    ".jekyll-cache/**": true,
+    "vendor/**": true
+  },
+  "files.exclude": {
+    "_site": true,
+    ".sass-cache": true,
+    ".jekyll-cache": true,
+    "vendor": true
+  },
+  "files.watcherExclude": {
+    "**/_site/**": true,
+    "**/.sass-cache/**": true,
+    "**/.jekyll-cache/**": true,
+    "**/vendor/**": true
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.env.osx": {
+    "JEKYLL_ENV": "development"
+  },
+  "yaml.schemas": {
+    "https://json.schemastore.org/jekyll.json": "/_config.yml"
+  },
+  "liquid.format.enable": true,
+  "emmet.includeLanguages": {
+    "liquid-html": "html"
+  }
+}

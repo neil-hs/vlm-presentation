@@ -1,0 +1,36 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "ruby_lsp",
+      "name": "Debug Jekyll (Development)",
+      "request": "launch",
+      "program": "bundle",
+      "args": ["exec", "jekyll", "serve", "--livereload", "--watch", "--incremental"],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "type": "ruby_lsp",
+      "name": "Debug Jekyll (Production)",
+      "request": "launch",
+      "program": "bundle",
+      "args": ["exec", "jekyll", "serve", "--livereload", "--watch", "--incremental", "JEKYLL_ENV=production"],
+      "cwd": "${workspaceRoot}"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Debug in Chrome",
+      "url": "http://localhost:4000",
+      "webRoot": "${workspaceFolder}/_site"
+    },
+    {
+      "type": "ruby_lsp",
+      "name": "Debug Rake Task",
+      "request": "launch",
+      "program": "bundle",
+      "args": ["exec", "rake"],
+      "cwd": "${workspaceRoot}"
+    }
+  ]
+}
